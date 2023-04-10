@@ -229,7 +229,7 @@ export class MenubarComponent implements OnInit {
     menuHelp.childs.push(new MenuItem("About", Callback.from(this.showAbout)));
     menuHelp.childs.push(new MenuItem("Keyboard", Callback.from(this.showShortcuts),new ShortCut(true,true,false,'K',menuHelp.name)));
     menuHelp.childs.push(new MenuItem("Bug report", Callback.from(this.openBugLink)));
-    menuHelp.childs.push(new MenuItem("Twitter", Callback.from(this.openTwitterLink)));
+    //menuHelp.childs.push(new MenuItem("Twitter", Callback.from(this.openTwitterLink)));
     this.menus.push(menuHelp);
 
 
